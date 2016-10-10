@@ -10,7 +10,7 @@ jBan is a simple include that will allow server owners to easily have a player b
 ## Instructions
 Make sure that the jBan include has been put into your "pawno/includes" directory, then simply add the following to the script you wish to use jBan in:
 
-```
+```pawn
 #include <jBan>
 ```
 
@@ -20,7 +20,7 @@ Then you simply add the ban/unban functions where you need them and let the incl
 
 ### Functions
 
-```
+```pawn
 native jBan(player_banned, player_banner, reason[], time = 0);
 // This function will create a new ban for player_banned by player_banner with a reason[] and a time. The time parameter can be used to set the ban length in minutes, it defaults to 0 (permanent).
 
